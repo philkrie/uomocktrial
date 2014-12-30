@@ -23,11 +23,20 @@ body {
     color: #000;
     line-height: 16px;
     font-weight: 400;
+    background-color:black;
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
+
+hr{
+    border-color:black;
+    border-width:2px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
-    line-height: 40px;
+    line-height: 30px;
 }
 
 h1 {
@@ -58,7 +67,7 @@ a, a:hover {
 
 p {
     line-height: 30px;
-    margin-bottom: 23px;
+    margin-bottom: 0pc;
 }
 
 .img-margin-product {
@@ -70,7 +79,7 @@ p {
 }
 
 .space-bottom {
-    height: 120px;
+    height: 55px;
 }
 
 .space-top {
@@ -88,6 +97,15 @@ p {
     line-height: 65px;
     font-weight: 900;
 }
+
+.circle {
+        border-radius:50% 50% 50% 50%;  
+        width:120px;
+        height:120px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    }
 /* ==========================================================================
    COLOR CODES
    ========================================================================== */
@@ -116,21 +134,66 @@ p {
     color: #000000;
 }
 
+.color-yellow{
+    color: #F8E853;
+}
+
+.color-grey{
+    color: #686868 ;
+}
+
+.color-purple{
+    color: #4b2e83;
+}
+
+.color-gold{
+    color: #FFD700;
+}
+
+.color-silver{
+    color: #C0C0C0;
+}
+
+.color-bronze{
+    color: #CD7F32;
+}
+
+.color-duckgreen{
+    color:#004F36;
+}
+
 .section {
-    background-color: rgba(102, 110, 197, 1);
-    color: #fff;
+    background-color: #F8E853;
+    color: #004F36;
 }
 
 /* ==========================================================================
-   PRICE SECTION
+   NEWS SECTION
    ========================================================================== */
 
 .active {
-    background: #EB8F2D!important;
+    background: #F8E853!important;
 }
 
-#pricing-section .plan-main {
-    background: #31B2D3;
+#header-section{
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+
+#about-section{
+    background-color:#F8E853;
+    color:green;
+}
+
+#about-section-info{
+    background-color:white;
+    color:black;
+}
+
+#news-section .plan-main {
+    background: #F8E853;
     list-style: none;
     margin: 0 0 20px;
     text-align: center;
@@ -138,31 +201,31 @@ p {
     border-bottom: 1px solid #e1e1e1;
 }
 
-    #pricing-section .plan-main li {
+    #news-section .plan-main li {
         padding: 10px 0;
         margin: 0 15px;
         border-bottom: 1px dashed #eee;
     }
 
-        #pricing-section .plan-main li.plan-name {
+        #news-section .plan-main li.plan-name {
             padding: 15px 0;
             font-size: 18px;
             font-weight: 700;
         }
 
-        #pricing-section .plan-main li.plan-price {
-            color: #666;
+        #news-section .plan-main li.plan-news {
+            color: #F8E853;
             padding: 15px 0;
             font-size: 48px;
         }
 
-        #pricing-section .plan-main li.plan-action {
+        #news-section .plan-main li.plan-action {
             margin-top: 20px;
             margin-bottom: 20px;
             border-bottom: 0;
         }
 
-    #pricing-section .plan-main.featured {
+    #news-section .plan-main.featured {
         -webkit-transform: scale(1.05);
         -moz-transform: scale(1.05);
         -ms-transform: scale(1.05);
@@ -170,10 +233,10 @@ p {
         transform: scale(1.05);
     }
 
-        #pricing-section .plan-main.featured .plan-price {
+        #news-section .plan-main.featured .plan-news {
             color: #fff;
-            background-color: #52b6ec;
-            border-bottom-color: #52b6ec;
+            background-color: #F8E853;
+            border-bottom-color: #F8E853;
             margin: 0;
         }
 
@@ -209,11 +272,12 @@ p {
 .navbar {
     font-weight: 500;
     font-size: 14px;
+    color: #ffffff;
 }
 
 .navbar-inverse {
-    background: #000;
-    border-color: #000;
+    background: #F8E853;
+    border-color: #F8E853;
 }
 
     .navbar-inverse .navbar-nav > .active > a {
@@ -250,27 +314,25 @@ section {
 
     section:nth-of-type(1) {
         background: #FAFAFA;
-        height: 300px;
+        height: 200px;
     }
 
     section:nth-of-type(2) {
-        background: #FAFAFA;
-        height: 300px;
+        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5) ),url(../img/parallax/seattle.jpg) no-repeat;
+        height: 600px;
+        background-size: 100%;
     }
 
 #story-freext > div:nth-of-type(1) {
-    background: url(../img/1.jpg) 50% 0 no-repeat fixed;
-    height: 300px;
-    position: absolute;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/parallax/chapman1.jpg) fixed no-repeat;
+    height: 200px;
+    background-size: 150%;
+    position: relative;
     width: 100%;
+
+
 }
 
-#story-two > div:nth-of-type(2) {
-    background: url(../img/2.jpg) 50% 0 no-repeat fixed;
-    height: 300px;
-    position: absolute;
-    width: 100%;
-}
 
 section article {
     position: absolute;
