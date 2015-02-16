@@ -266,6 +266,10 @@ p {
 .color-pinterest {
     color: #cb2027;
 }
+
+.color-instagram {
+    color: #C5B7A8;
+}
 /* ===========================================================
    BOOTSTRAP ELEMENTS CHANGES   
    ============================================================*/
@@ -300,7 +304,7 @@ p {
         color: #FFFFFF;
     }
 
-
+   
 /* ==========================================================================
    PARALLAX STYLES
    ========================================================================== */
@@ -313,15 +317,21 @@ section {
 }
 
     section:nth-of-type(1) {
-        background: #FAFAFA;
+        background: #004F36;
         height: 200px;
     }
 
     section:nth-of-type(2) {
-        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5) ),url(../img/parallax/seattle.jpg) no-repeat;
+        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url(../img/parallax/boise.jpg) no-repeat;
         height: 600px;
         background-size: 100%;
     }
+
+    @media (max-width : 1000px) {
+        section:nth-of-type(2) {
+            height: 400px;
+            }
+        }
 
 #story-freext > div:nth-of-type(1) {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/parallax/chapman1.jpg) fixed no-repeat;
@@ -329,9 +339,8 @@ section {
     background-size: 150%;
     position: relative;
     width: 100%;
-
-
 }
+
 
 
 section article {
@@ -348,6 +357,23 @@ section article {
         line-height: 40px!important;
         font-weight: 600!important;
     }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { 
+    section:nth-of-type(2) {
+        height:200px;
+    }
+
+    section article{
+        left:0px;
+        font-size: 12px!important;
+        padding:5px;
+    }
+
+    section article span {
+        line-height: 20px!important;
+        font-weight: 400!important;
+    }
+}
 /* ==========================================================================
    FOOTER SECTION
    ========================================================================== */
@@ -357,4 +383,11 @@ section article {
     background-color: #000;
     color: #fff;
     padding: 30px;
+}
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape) { 
+    .col-sm-4{
+        width: 33.33333333333333%;
+        float: left;
+    }
 }
