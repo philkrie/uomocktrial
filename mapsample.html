@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style type="text/css">
+			html, body, #map-canvas { height: 100%; margin: 0; padding: 0;}
+		</style>
+		<script type="text/javascript"
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpnbfMr3rlx_TWB7c5lSLXcAhb916xkxM">
+		</script>
+		<script type="text/javascript">
+			
+			var markers = [];
+			var map;
+
+			var tournaments = [
+				new google.maps.LatLng(44.0521, -123.0867),	//Frohnmayer
+				new google.maps.LatLng(47.6097, -122.3331),	//Emerald City
+				new google.maps.LatLng(37.8717, -122.2728),	//Cal
+				new google.maps.LatLng(44.5667, -123.2833),	//Corvallis
+				new google.maps.LatLng(43.6167, -116.2000),	//Idaho
+			];
+
+			function initialize() {
+				var mapOptions = {
+					center: { lat: 39.828127, lng: -98.579404},
+					zoom: 5,
+					disableDefaultUI: true
+				};
+
+				map = new google.maps.Map(document.getElementById('map-canvas'),
+						mapOptions);
+				map.setOptions({draggable: false, zoomControl: false, scrollwheel: false, disableDoubleClickZoom: true});
+
+				var infowindow = new google.maps.InfoWindow({
+      				maxWidth: 100
+  				});
+
+				for (var i = 0; i < tournaments.length; i++){
+					markers.push(new google.maps.Marker({
+   						position: tournaments[i],
+    					map: map,
+    					animation: google.maps.Animation.DROP
+  					}));
+				}
+
+				google.maps.event.addListener(markers[0], 'click', function() {
+ 					infowindow.setContent("The Annual Frohmayer Memorial Invitational is held in the University of Oregon Law School");
+ 					infowindow.open(map, markers[0]);
+ 				});
+
+				google.maps.event.addListener(markers[1], 'click', function() {
+ 					infowindow.setContent("The Emerald City Invitational");
+ 					infowindow.open(map, markers[1]);});
+
+				google.maps.event.addListener(markers[2], 'click', function() {
+ 					infowindow.setContent("The Annual Cal Invitational");
+ 					infowindow.open(map, markers[2]);});
+
+				google.maps.event.addListener(markers[3], 'click', function() {
+ 					infowindow.setContent("Corvallis Regional");
+ 					infowindow.open(map, markers[3]);});
+
+				google.maps.event.addListener(markers[4], 'click', function() {
+ 					infowindow.setContent("Boise Regional");
+ 					infowindow.open(map, markers[4]);});
+
+			}
+
+			google.maps.event.addDomListener(window, 'load', initialize);
+		</script>
+	</head>
+	<body>
+<div id="map-canvas"></div>
+	</body>
+</html>
