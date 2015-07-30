@@ -9,6 +9,9 @@
     IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
    
     ========================================================  */
+function changepdf(name){
+        document.getElementById("viewer").innerHTML = `<iframe  src = "/ViewerJS/#../assets/pdf/poop.pdf" width='100%' height='80%'  allowfullscreen webkitallowfullscreen></iframe>`;
+}
 
 
 jQuery(function($) {
