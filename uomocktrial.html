@@ -3,7 +3,7 @@
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en">
+<html lang="en" ng-app = "uomocktrial">
 <!--<![endif]-->
 <!-- HEAD SECTION -->
 <head>
@@ -31,37 +31,15 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
+    <script type="text/javascript" src="assets/js/angular.min.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
 </head>
 
     <!--END HEAD SECTION -->
-<body>   
+<body ng-controller = "MockController as mock">   
      <!-- NAV SECTION -->
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="col-sm-3" style = "height: 100%">
-            <div class="navbar-header" style = "height:100%">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="#header-section">
-                    <img class="hidden-xs brand" src = "assets/img/logos/logo_alt2.jpg" alt="">
-                    <img class="visible-xs brand" src = "assets/img/logos/logo_alt2_little.jpeg" alt=""> 
-                </a>
-            </div>
-        </div>
-        <div class="col-sm-9">
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#about-section"><font size="3" color="#004F36">ABOUT</font></a></li>
-                    <li><a href="#news-section"><font size="3" color="#004F36">NEWS</font></a></li>
-                    <li><a href="#contact-section"><font size="3" color="#004F36">CONTACT US</font></a></li>
-                    <li><a href="forensics.html"><font size="3" color="#004F36">UO FORENSICS</font></a></li>
-                </ul>
-            </div>
-           </div>
-        </div>
+    <div class="navbar navbar-inverse navbar-fixed-top" ng-include = "'nav.html'">
+        
     </div>
      <!--END NAV SECTION -->
      <!-- HEADER SECTION -->
@@ -123,7 +101,7 @@
                 </div>               
                     <div class="col-md-4" >
                     <a href = "map.html"><i class="fa fa-plane fa-5x color-duckgreen"></i></a>
-                    <h3><a href = "map.html"class="color-black">TRAVEL</a></h3>
+                    <h3><a href = "map.html" class="color-black">TRAVEL</a></h3>
                     <p style="line-height:3em">
                         Working with Oregon Forensics, UOMT is well funded and travels to several tournaments every year! Whether chugging along in a 15 person van
                         or flying high in a 737, UOMT travels in style!
@@ -323,6 +301,7 @@
     <script type="text/javascript" src="simple-email-form-v1/js/jquery.validate.min.js"></script>
     <script type="text/javascript" src="simple-email-form-v1/js/additional-methods.min.js"></script>
     <script type="text/javascript" src="simple-email-form-v1/js/main.js"></script>
+   
 
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

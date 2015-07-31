@@ -3,7 +3,7 @@
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en">
+<html lang="en" ng-app = "uomocktrial">
 <!--<![endif]-->
 <!-- HEAD SECTION -->
 <head>
@@ -29,6 +29,8 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
+    <script type="text/javascript" src="assets/js/angular.min.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
       <style>
 
         i, img {
@@ -43,31 +45,10 @@
     </style>
 </head>
     <!--END HEAD SECTION -->
-<body>   
+<body ng-controller = "MockController as mock">   
      <!-- NAV SECTION -->
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="col-sm-3">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="http://www.uomocktrial.com"><img src = "assets/img/logos/logo_alt2.jpg" width = "100%" height = "100%" style = "margin:0"></a>
-            </div>
-        </div>
-            <div class="col-sm-9">
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="http://www.uomocktrial.com#about-section"><font size="3" color="#004F36">ABOUT</font></a></li>
-                    <li><a href="http://www.uomocktrial.com#news-section"><font size="3" color="#004F36">NEWS</font></a></li>
-                    <li><a href="http://www.uomocktrial.com#contact-section"><font size="3" color="#004F36">CONTACT US</font></a></li>
-                    <li><a href="forensics.html"><font size="3" color="#004F36">UO FORENSICS</font></a></li>
-                </ul>
-            </div>
-           </div>
-        </div>
+    <div class="navbar navbar-inverse navbar-fixed-top" ng-include = "'nav.html'">
+        
     </div>
      <!--END NAV SECTION -->
    
@@ -102,7 +83,7 @@
                     <h4>Team 1325</h4>
                 </div>
                 <div class="col-md-3 col-sm-3" >
-                    <img src="assets/img//trophies/thunder.png" height="25%" width="25%"></i>
+                    <img src="assets/img//trophies/thunder.png" height="25%" width="25%">
                     <h3><a href = "http://www.collegemocktrial.org/University%20of%20Washington%20TabSummary.pdf" class="color-black">FOURTH PLACE</a></h3>
                     <h4>Emerald City Open 2014</h4>
                     <h4>Team 1326</h4>
