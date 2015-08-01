@@ -12,7 +12,7 @@
 function changepdf(name) {
     "use strict";
     document.getElementById("viewer").innerHTML =
-        "<iframe  src = &quot/ViewerJS/#../assets/pdf/poop.pdf&quot width='100%' height='80%'  allowfullscreen webkitallowfullscreen></iframe>";
+        "<iframe  src = 'ViewerJS/#../assets/pdf/" + name + ".pdf' width='100%' height='80%' allowfullscreen webkitallowfullscreen></iframe>";
 }
 
 
