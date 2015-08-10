@@ -18,7 +18,7 @@ function initialize() {
     'use strict';
     var mapOptions = {
         center: { lat: 39.828127, lng: -98.579404},
-        zoom: 5,
+        zoom: 4,
         disableDefaultUI: true
     },
         infowindow = new google.maps.InfoWindow({
@@ -26,7 +26,7 @@ function initialize() {
         });
     
     map = new google.maps.Map(document.getElementById('map-container'), mapOptions);
-    map.setOptions({draggable: false, zoomControl: false, scrollwheel: false, disableDoubleClickZoom: true});
+    map.setOptions({draggable: false, zoomControl: true, scrollwheel: false, disableDoubleClickZoom: true});
 
     for (i = 0; i < tournaments.length; i += 1) {
         markers.push(new google.maps.Marker({
