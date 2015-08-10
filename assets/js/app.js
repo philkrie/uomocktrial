@@ -90,10 +90,47 @@
             { name: "Taylor Raffanti",
                 image: "assets/img/headshots/blank.png",
                 description: "Taylor is a freshman from Sacramento, California, and is a political science major. This is her first year of mock trial and first with UOMT. Taylor has an impressive theater resume however, as she has been involved with theater through Franklin Theater Company in Elk Grove, CA for 6 years."}
+        ],
+        cabinet = [
+            { name: "Charles Steenkolk",
+                image: "assets/img/headshots/blank.png",
+                position: "VICE PRESIDENT",
+                subtext: "OPERATIONS",
+                email: "steenkol@uoregon.edu"
+                },
+            
+            { name: "Greg Mina",
+                image: "assets/img/headshots/greg.jpg",
+                position: "PRESIDENT",
+                subtext: "(719) 330-5004",
+                email: "gmina@uoregon.edu"
+                },
+            
+            { name: "Erin Casini",
+                image: "assets/img/headshots/erin.jpg",
+                position: "VICE PRESIDENT",
+                subtext: "COMMUNICATIONS",
+                email: "ecasini@uoregon.edu"
+                },
+            
+            { name: "Thomas Dal Pino",
+                image: "assets/img/headshots/thomas.jpg",
+                position: "VICE PRESIDENT",
+                subtext: "INSTRUCTION",
+                email: "tdalpino@uoregon.edu"
+                },
+            
+            { name: "Michaela Malos",
+                image: "assets/img/headshots/blank.png",
+                position: "VICE PRESIDENT",
+                subtext: "TOURNAMENTS",
+                email: "mkurinsk@uoregon.edu"
+                }
         ];
     
     app.controller('MockController', function () {
         this.roster = roster;
+        this.cabinet = cabinet;
     });
     
     
