@@ -126,6 +126,12 @@
                 subtext: "TOURNAMENTS",
                 email: "mkurinsk@uoregon.edu"
                 }
+        ],
+        awards = [
+            { name: "",
+                ranks: "",
+                location: ""
+                }
         ];
     
     app.controller('MockController', function () {
