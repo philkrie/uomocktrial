@@ -288,15 +288,15 @@ p {
 
 .navbar-inverse {
     background: #F8E853;
-    border-color: #F8E853;
+    border: 0px;
 }
 
     .navbar-inverse .navbar-nav > .active > a {
-        background: #ffffff;
+        background: #F8E853;
     }
 
     .navbar-inverse .navbar-brand {
-        color: #fff;
+        color: #F8E853;
         font-weight: bolder;
         font-size: 25px;
         font-weight: 900;
@@ -304,12 +304,34 @@ p {
     }
 
     .navbar-inverse :hover .navbar-brand:hover {
-        color: #fff;
+        background: #F8E853;
     }
 
     .navbar-inverse .navbar-nav > li > a {
-        color: #FFFFFF;
+        background: #F8E853;
     }
+
+    /*.navbar-inverse .navbar-nav > li > a:hover {
+        background: #DFD14B;
+    }*/
+
+    .navbar-inverse .navbar-nav > ul {
+        list-style: none outside none;
+    }
+
+    ul li:hover:after,
+    ul li > a:focus:after{
+        border: 1px solid #004F36;
+        bottom: 0;
+        content: "";
+        left: 0;
+        position: absolute;
+        width: 100%;
+    }
+
+    
+    
+
 
    
 /* ==========================================================================
