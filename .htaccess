@@ -1,0 +1,19 @@
+# Use PHP5.4 as default
+AddHandler application/x-httpd-php54 .php
+DirectoryIndex uomocktrial.html home.htm index.htm index.html default.htm index.php index.html
+
+AddType image/x-icon .ico
+<IfModule mod_headers.c>
+# YEAR
+<FilesMatch ".(ico|gif|jpg|jpeg|png|flv|pdf)$">
+ Header set Cache-Control "max-age=29030400"
+</FilesMatch>
+# WEEK
+<FilesMatch ".(js|css|swf)$">
+ Header set Cache-Control "max-age=604800"
+</FilesMatch>
+# 24 HOURS
+<FilesMatch ".(html|htm|txt|php)$">
+ Header set Cache-Control "max-age=86400"
+</FilesMatch>
+</IfModule>
