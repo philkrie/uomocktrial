@@ -45,7 +45,7 @@ h1 {
 }
 
 h5 {
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 
 .text-center {
@@ -116,6 +116,7 @@ p {
     width: 100%;
     height: 100%;
     margin: 0 auto;
+    margin-bottom: 15%;
 }
 
 .sidelogoright {
@@ -182,12 +183,19 @@ p {
 }
 
 .color-duckgreen{
-    color:#004F36;
+    color:#004B34;
 }
 
 .section {
     background-color: #DFD14B;
-    color: #004F36;
+    color: #004B34;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
 }
 
 /* ==========================================================================
@@ -340,7 +348,7 @@ p {
 
     ul li:hover:after,
     ul li > a:focus:after{
-        border: 1px solid #004F36;
+        border: 1px solid #004B34;
         bottom: 0;
         content: "";
         left: 0;
@@ -365,7 +373,7 @@ section {
 }
 
     section:nth-of-type(1) {
-        background: #004F36;
+        background: #004B34;
         height: 200px;
     }
 
