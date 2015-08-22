@@ -110,6 +110,25 @@ p {
 .brand { height: 51px;
          margin: 0;
 }
+
+.mainlogo {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.sidelogoright {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.sidelogoleft {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
 /* ==========================================================================
    COLOR CODES
    ========================================================================== */
@@ -176,11 +195,11 @@ p {
    ========================================================================== */
 
 .active {
-    background: #DFD14B!important;
+    background: #DFD14B!importaont;
 }
 
 #header-section{
-    background-color:black;
+    background-color:white;
     color:white;
     text-align:center;
     padding:5px;
