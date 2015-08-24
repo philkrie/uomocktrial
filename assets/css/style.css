@@ -18,7 +18,7 @@
 
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'century gothic', sans-serif;
     font-size: 14px;
     color: #000;
     line-height: 16px;
@@ -35,7 +35,7 @@ hr{
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'century gothic', sans-serif;
     line-height: 30px;
 }
 
@@ -117,7 +117,7 @@ p {
     height: 100%;
     margin: 0 auto;
     margin-bottom: 15%;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 .sidelogoright {
