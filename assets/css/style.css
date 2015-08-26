@@ -212,10 +212,18 @@ a.anchor {
 }
 
 #header-section{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3) ), url(../img/scales.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3) ), url(../img/scales.jpg) no-repeat;
+    background-size: 100%;
     color:white;
     text-align:center;
     padding:5px;
+}
+
+@media (max-width: 850px){
+    #header-section{
+        background-size: 200%;
+        background-position: right top;
+    }
 }
 
 #about-section{
@@ -388,9 +396,20 @@ section {
         background-size: 100%;
     }
 
+    @media (max-width: 820px){
+        
+    }
+
     @media (max-width : 1000px) {
         section:nth-of-type(2) {
             height: 400px;
+            }
+        }
+
+    @media (max-width : 525px) {
+        section:nth-of-type(2) {
+            background-size: 150%;
+            background-position: center;
             }
         }
 
@@ -402,11 +421,16 @@ section {
     width: 100%;
 }
 
+@media (max-width: 820px){
+    #story-freext > div:nth-of-type(1) {
+        background-size: 400%;
+    }
+}
+
 
 
 section article {
     position: absolute;
-    left: 80px;
     width: 100%;
     z-index: 4;
     color: #fff;
