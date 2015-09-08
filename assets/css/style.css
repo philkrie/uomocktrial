@@ -17,8 +17,34 @@
    ============================================================*/
 
 
+@font-face {
+    font-family: mockFont;
+    src: url(../fonts/KievitPro-Regular.otf);
+}
+
+
+@font-face {
+    font-family: mockFont;
+    src: url(../fonts/KievitPro-Bold.otf);
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: mockFont;
+    src: url(../fonts/KievitPro-Italic.otf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: mockFont;
+    src: url(../fonts/KievitPro-BoldItalic.otf);
+    font-weight: bold;
+    font-style: italic;
+}
+
 body {
-    font-family: 'century gothic', sans-serif;
+    font-family: 'mockFont';
     font-size: 14px;
     color: #000;
     line-height: 16px;
@@ -35,7 +61,7 @@ hr{
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'century gothic', sans-serif;
+    font-family: 'mockFont';
     line-height: 30px;
 }
 
