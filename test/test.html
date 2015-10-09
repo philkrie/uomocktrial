@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+
+<!-- title and meta -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<meta name="description" content="Image overlay hover effects with CSS3 transitions. When we hover over an image, a neat transition will occur." />
+<title>Image Overlay Hover Effects With CSS3 Transitions</title>
+    
+<!-- css -->
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="style.css" />
+    
+<!-- js -->
+<script src="jquery-1.9.1.min.js"></script>
+<script src="modernizr.js"></script>
+<script>
+    $(document).ready(function(){
+        if (Modernizr.touch) {
+            // show the close overlay button
+            $(".close-overlay").removeClass("hidden");
+            // handle the adding of hover class when clicked
+            $(".img").click(function(e){
+                if (!$(this).hasClass("hover")) {
+                    $(this).addClass("hover");
+                }
+            });
+            // handle the closing of the overlay
+            $(".close-overlay").click(function(e){
+                e.preventDefault();
+                e.stopPropagation();
+                if ($(this).closest(".img").hasClass("hover")) {
+                    $(this).closest(".img").removeClass("hover");
+                }
+            });
+        } else {
+            // handle the mouseenter functionality
+            $(".img").mouseenter(function(){
+                $(this).addClass("hover");
+            })
+            // handle the mouseleave functionality
+            .mouseleave(function(){
+                $(this).removeClass("hover");
+            });
+        }
+    });
+</script>
+    <body>
+<div id="effect-1" class="effects clearfix">
+    <div class="img">
+        <img src="1.jpg" alt="">
+        <div class="overlay">
+            <a href="#" class="expand">+</a>
+            <a class="close-overlay hidden">x</a>
+        </div>
+    </div>
+    <div class="img">
+        <img src="2.jpg" alt="">
+        <div class="overlay">
+            <a href="#" class="expand">+</a>
+            <a class="close-overlay hidden">x</a>
+        </div>
+    </div>
+    <div class="img">
+        <img src="3.jpg" alt="">
+        <div class="overlay">
+            <a href="#" class="expand">+</a>
+            <a class="close-overlay hidden">x</a>
+        </div>
+    </div>
+    <div class="img">
+        <img src="4.jpg" alt="">
+        <div class="overlay">
+            <a href="#" class="expand">+</a>
+            <a class="close-overlay hidden">x</a>
+        </div>
+    </div>
+</div>
+    </body>
+    </head>
+</html>
