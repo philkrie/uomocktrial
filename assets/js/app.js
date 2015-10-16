@@ -13,7 +13,7 @@
 
             { name: "Phillip Kriegel",
                 image: "assets/img/headshots/phillip.jpg",
-                description: "Phillip is a junior from Beaverton, Oregon, studying Mathematics and Computer Science. This will be his second year of mock trial, and second with UOMT, where he serves on the cabinet as Vice President of Finances. Known for exceptional Slavic witness portrayals and brutally emotional acting, opponents often refer to him only as “The Volk”. He owes his success to the words of Russell Wilson, quarterback of the world champion Seahawks: “Why not us?”"},
+                description: "Phillip is a senior from Beaverton, Oregon, studying Mathematics and Computer Science. This will be his third year of mock trial, and third with UOMT, where he serves as the team Web Developer. Known for exceptional Slavic witness portrayals and brutally emotional acting, opponents often refer to him only as “The Volk”."},
 
             { name: "Greg Mina",
                 image: "assets/img/headshots/greg.jpg",
