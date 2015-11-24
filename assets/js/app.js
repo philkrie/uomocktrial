@@ -72,7 +72,7 @@
                 description: "Morgan Terhune is a freshman from Tualatin, OR, currently majoring in Philosophy in the Clarks Honors College. A newcomer to Mock Trial, this is her first year competing with the UOMT. In high school, Morgan was a member of her speech and debate team, participating in Lincoln-Douglas debate, and a member of Tualatin’s Youth Advisory Council.  Morgan has plenty of experience working with the government, having volunteered with local and state levels on many occasions. She looks forward to gaining experience with the UOMT this year."},
             
              { name: "Areeb Alam",
-                image: "assets/img/headshots/blank.png",
+                image: "assets/img/headshots/areeb.jpg",
                 description: ""},
             
              { name: "Olivia Courogen",
@@ -139,7 +139,7 @@
                 image: "assets/img/headshots/niharika.jpg",
                 description: "Niharika is a sophomore from Eugene, OR pursuing a double major in Public Relations and Political Science, and a minor in Business while studying within the Clark Honors College. This is her second year doing mock trial and competing with UOMT, where she serves as the Vice President of Communications and the Social Media Chair. Along with mock trial, she is the Public Relations Officer for the Clark Honors College Student Association, and works as an assistant at the Law Office of Donald Johnson. Her hobbies include drinking bubble tea, yoga, and reading."},
             
-             { name: "Jason Cho",
+             { name: "Jacob Cho",
                 image: "assets/img/headshots/blank.png",
                 description: ""},
         ],
