@@ -40,11 +40,11 @@
                 description: ""},
             
             { name: "Ian Alpenia",
-                image: "assets/img/headshots/blank.png",
+                image: "assets/img/headshots/ian.jpg",
                 description: ""},
             
             { name: "Clarice Beasley",
-                image: "assets/img/headshots/blank.png",
+                image: "assets/img/headshots/clarice.jpg",
                 description: ""},
             
             { name: "Caroline Doss",
@@ -112,7 +112,7 @@
                 description: ""},
 
             { name: "Charles Steenkolk",
-                image: "assets/img/headshots/blank.png",
+                image: "assets/img/headshots/charles.jpg",
                 description: ""},
 
             { name: "Sara Gaylon",
@@ -145,7 +145,7 @@
         ],
         cabinet = [
             { name: "Charles Steenkolk",
-                image: "assets/img/headshots/blank.png",
+                image: "assets/img/headshots/charles.jpg",
                 position: "VICE PRESIDENT",
                 subtext: "OPERATIONS",
                 email: "steenkol@uoregon.edu"
@@ -159,7 +159,7 @@
                 },
             
             { name: "Niharika Sachdeva",
-                image: "assets/img/headshots/blank.png",
+                image: "assets/img/headshots/niharika.jpg",
                 position: "VICE PRESIDENT",
                 subtext: "COMMUNICATIONS",
                 email: "niharika@uoregon.edu"
