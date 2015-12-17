@@ -20,7 +20,7 @@
                 description: "David is a junior from Hood River, OR, studying Economics and History. He studied in Cleveland, OH at Case Western Reserve University for the past two years, where he was a member of the varsity wrestling team. He has no experience with mock trial or speech and debate. In Eugene, he has joined the Mock Trial Team and began a historical research project. David hopes after college to pursue a graduate degree, attend law school, and get a dog."},
             
             { name: "Keith Bunting",
-                image: "assets/img/headshots/blank.png",
+                image: "assets/img/headshots/keith.jpg",
                 description: ""},
             
             { name: "Andrew Dizon",
@@ -29,7 +29,7 @@
             
             { name: "Ally Jansky",
                 image: "assets/img/headshots/blank.png",
-                description: "Ally is a freshman from Portland, OR, pursuing a major in Political Science while studying within the Clark Honors College. She competed in speech and debate program during her senior year in high school. She also competed in mock trial cases multiple times throughout high school. Ally has enjoyed an illustrious acting career, meaning she was in two student-written student- directed  plays during the course of her junior and senior year. In her free time, she likes to read the case over and over until her eyes disintegrate or she runs out of coffee."},
+                description: "Ally is a freshman from Portland, OR, pursuing a major in Political Science while studying within the Clark Honors College. She competed in speech and debate during her senior year in high school. She also competed in mock trial cases multiple times throughout high school. Ally has enjoyed an illustrious acting career, meaning she was in two student-written student- directed  plays during the course of her junior and senior years. In her free time, she likes to read the case over and over until her eyes disintegrate or she runs out of coffee."},
             
             { name: "Sadie Kavalier",
                 image: "assets/img/headshots/blank.png",
@@ -41,19 +41,19 @@
             
             { name: "Ian Alpenia",
                 image: "assets/img/headshots/ian.jpg",
-                description: ""},
+                description: "Ian is a junior from Ashland, OR studying Sociology. He is new to UOMT but loves everything about it. Ian is aspiring to become an attorney, following in his uncle’s footsteps. He also loves all sports but mostly football, baseball and soccer. His favorite sports teams are the Los Angeles Dodgers and Chelsea Football Club."},
             
             { name: "Clarice Beasley",
                 image: "assets/img/headshots/clarice.jpg",
-                description: ""},
+                description: "Clarice is a freshman from Portland, OR, majoring in International Business. Clairce was a participant in mock trial for 3 years at her high school. She enjoys Thai food, sushi, hip-hop music, and poetry. She has a special love for coconut water as well. She loves long walks on the beach and rom-coms. She hopes that competing for UOMT will bring her more experience and a new appreciation for the law."},
             
             { name: "Caroline Doss",
-                image: "assets/img/headshots/blank.png",
-                description: ""},
+                image: "assets/img/headshots/caroline.jpg",
+                description: "Caroline is a freshman from Central Point, OR. She is studying within the Clark Honors College and is currently pursuing a double major is Sociology and Romance Languages. Caroline had no prior mock trial experience before this year, but has been acting and performing for eight years. Competing for the University of Oregon at the Frohnmayer Invitational, Caroline received 16 ranks and an Outstanding Witness award."},
             
             { name: "Melissa Liu",
                 image: "assets/img/headshots/blank.png",
-                description: ""},
+                description: "Melissa Liu is a freshman at the University of Oregon. She is a double major in French and Economics. A graduate of Lake Oswego High School, she captained her school’s mock trial team and was apart of the school’s state winning Speech & Debate team in 2014. Melissa has also sprained her ankle playing intramural coed football, never tasted a pumpkin spice latte, and is proud to be a duck."},
             
             { name: "Mia Bacher",
                 image: "assets/img/headshots/blank.png",
@@ -73,22 +73,22 @@
             
              { name: "Areeb Alam",
                 image: "assets/img/headshots/areeb.jpg",
-                description: ""},
+                description: "Areeb is a freshman from Beaverton, OR, majoring in Economics. He was team captain of Mock Trial at Sunset High School for 4 years. His final year in high school mock trial, as president, he lead his team to the first state championship in 4 years and placed 6th at state, winning two MVP awards in the process."},
             
              { name: "Olivia Courogen",
-                image: "assets/img/headshots/blank.png",
-                description: ""},
+                image: "assets/img/headshots/olivia.jpg",
+                description: "Olivia is a sophomore from Portland, OR. Olivia graduated from Jakarta International School in Jakarta, Indonesia. She is currently in pursuit of a degree in International Business and Legal Studies. A newcomer to mock trial, Olivia is in her first year on the UOMT team but is already hooked. Olivia enjoys being involved in leadership roles and loves being involved in clubs on campus, as well as in her sorority. She hopes to pursue a dual JD/MBA degree and go on to practice business law. In her free time, Olivia loves to watch Scandal, run and spend time outdoors, and travel around the world."},
             
             { name: "MJ Flores",
                 image: "assets/img/headshots/blank.png",
                 description: ""},
             
             { name: "Aviva Kaye-Diamond",
-                image: "assets/img/headshots/blank.png",
-                description: ""},
+                image: "assets/img/headshots/aviva.jpg",
+                description: "Aviva Kaye-Diamond is a freshman from Portland, Oregon. She is a Clark Honors Student pursuing a political science major with a minor in Spanish. This will be her fourth year of Mock Trial. She participated on her high school team for three years, and has experience portraying witnesses as well as attorneys (however she has not yet aquired an accent). Aviva wants to become a lawyer, judge, legislator, local government official, or pretty much anything government related. She currently works for the University Senate."},
             
             { name: "Sofia Penrose",
-                image: "assets/img/headshots/blank.png",
+                image: "assets/img/headshots/sofia.jpg",
                 description: ""},
             
             { name: "Kerissa Sheley",
@@ -97,11 +97,11 @@
             
             { name: "Sonya Swanson",
                 image: "assets/img/headshots/sonya.jpg",
-                description: "Sonya is a freshman from Lake Oswego, OR, pursuing a major in Political Science and a minor in History while studying within the Clark Honors College. Although she has no prior mock trial/speech and debate experience, she has immersed myself in crime television and feel well equipped to tackle collegiate mock trial. Her biggest goal this year is to acquire a more holistic understanding of the courts and legal system. Sonya was drawn to mock trial because she loves looking at issues from all different perspectives to find creative solutions."},
+                description: "Sonya is a freshman from Lake Oswego, OR, pursuing a major in Political Science and a minor in History while studying within the Clark Honors College. Although she has no prior mock trial/speech and debate experience, she has immersed herself in crime television and feels well equipped to tackle collegiate mock trial. Her biggest goal this year is to acquire a more holistic understanding of the courts and legal system. Sonya was drawn to mock trial because she loves looking at issues from all different perspectives to find creative solutions."},
 
             { name: "Phillip Kriegel",
                 image: "assets/img/headshots/phillip.jpg",
-                description: ""},
+                description: "Phillip is a senior from Beaverton, OR, pursuing a major in Computer and Information Science and a major in Applied Mathematics, with a minor in Spanish. He is also a member of the Clark Honors College. Phillip has been a part of the team for 3 years now, and is best known for his ability to portray witnesses of Slavic descent. Known by opposing competitors as the \"Volk\", he is a fearsome adversary in the courtroom."},
 
             { name: "Greg Mina",
                 image: "assets/img/headshots/greg.jpg",
@@ -117,7 +117,7 @@
 
             { name: "Sara Gaylon",
                 image: "assets/img/headshots/sara.jpg",
-                description: ""},
+                description: "Sara Gaylon is a junior from Sacramento, CA pursuing a double major in Economics and History and a minor in Environmental Studies. This is her second year doing mock trial and second full year competing with UOMT, where she serves as the Social Events Chair. Sara enjoys spending time in the outdoors and hopes to pursue a future studying and practicing environmental law."},
 
             { name: "Riley Olson",
                 image: "assets/img/headshots/blank.png",
@@ -132,7 +132,7 @@
                 description: ""},
 
             { name: "Michaela Kurinsky-Malos",
-                image: "assets/img/headshots/blank.png",
+                image: "assets/img/headshots/michaela.jpg",
                 description: "Michaela is a sophomore from Corvallis, OR, pursuing a double major in Political Science and History and a minor in Judaic Studies. This is Michaela's second year with UOMT, where she serves as the Vice President of Tournaments. During high school, Michaela served as the Captain of the Mock Trial and Speech and Debate programs. Michaela currently works with the Democratic Party of Oregon serving as an Executive Committee Member and Chairperson of the Rural Caucus. She has played an integral part of multiple local and state campaigns, working as a campaign intern and manager to Democrats across Oregon."},
 
             { name: "Niharika Sachdeva",
@@ -173,17 +173,115 @@
                 },
             
             { name: "Michaela Kurinsky-Malos",
-                image: "assets/img/headshots/blank.png",
+                image: "assets/img/headshots/michaela.jpg",
                 position: "VICE PRESIDENT",
                 subtext: "TOURNAMENTS",
                 email: "mkurinsk@uoregon.edu"
                 }
         ],
         awards = [
-            { name: "",
-                ranks: "",
-                location: ""
-                }
+            {
+                attorney:[
+                    { name: "Greg Mina",
+                        ranks: 20,
+                        location: "Emerald City Open 2014",
+                        },
+                    { name: "Greg Mina",
+                        ranks: 19,
+                        location: "David Frohnmayer Invitational 2015",
+                        },
+                    { name: "Greg Mina",
+                        ranks: 18,
+                        location: "David Frohnmayer Invitational 2015",
+                        },
+                    { name: "Greg Mina",
+                        ranks: 19,
+                        location: "Winston Thomas Memorial Invitational 2015",
+                        },
+                    { name: "Greg Mina",
+                        ranks: 18,
+                        location: "Corvallis Regional 2014",
+                        },
+                    { name: "Riley Olson",
+                        ranks: 18,
+                        location: "Boise Regional 2015",
+                        },
+                    { name: "Riley Olson",
+                        ranks: 18,
+                        location: "David Frohnmayer Invitational 2015",
+                        },
+                    { name: "Jonathan Wu",
+                        ranks: 17,
+                        location: "Corvallis Regional 2014",
+                        },
+                    { name: "Jonathan Wu",
+                        ranks: 16,
+                        location: "Corvallis Regional 2013",
+                        },
+                    { name: "Niharika Sachdeva",
+                        ranks: 18,
+                        location: "Emerald City Open 2015",
+                        }
+                ],
+                witness:[
+                    { name: "Keith Bunting",
+                        ranks: 19,
+                        location: "Emerald City Open 2015",
+                        },
+                    { name: "Keith Bunting",
+                        ranks: 17,
+                        location: "Emerald City Open 2015",
+                        },
+                    { name: "Phillip Kriegel",
+                        ranks: 18,
+                        location: "Emerald City Open 2015",
+                        },
+                    { name: "Phillip Kriegel",
+                        ranks: 18,
+                        location: "Emerald City Open 2014",
+                        },
+                    { name: "Phillip Kriegel",
+                        ranks: 18,
+                        location: "Emerald City Open 2014",
+                        },
+                    { name: "Phillip Kriegel",
+                        ranks: 18,
+                        location: "Newport Beach ORCS 2014",
+                        },
+                    { name: "Phillip Kriegel",
+                        ranks: 17,
+                        location: "Corvallis Regional 2014",
+                        },
+                    { name: "Phillip Kriegel",
+                        ranks: 17,
+                        location: "David Frohnmayer Invitational 2015",
+                        },
+                    { name: "Gwen Styarfyr",
+                        ranks: 17,
+                        location: "Corvallis Regional 2012",
+                        },
+                    { name: "Sadie Kavalier",
+                        ranks: 17,
+                        location: "David Frohnmayer Invitational 2015",
+                        },
+                    { name: "Caroline Doss",
+                        ranks: 16,
+                        location: "David Frohnmayer Invitational 2015",
+                        },
+                     { name: "Devon Staton-Ralston",
+                        ranks: 16,
+                        location: "Emerald City Open 2014",
+                        },
+                     { name: "Alex Kummer",
+                        ranks: 16,
+                        location: "Corvallis Regional 2014",
+                        },
+                     { name: "Megan Wever",
+                        ranks: 16,
+                        location: "Corvallis Regional 2013",
+                        }
+                ]
+            }    
         ];
     
     app.controller('MockController', ['$scope', '$filter', function($scope, $filter) {

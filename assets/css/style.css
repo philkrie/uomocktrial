@@ -420,7 +420,7 @@ section {
     }
 
     section:nth-of-type(2) {
-        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url(../img/parallax/boise.jpg) no-repeat;
+        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url(../img/parallax/frohnmayer.jpg) no-repeat;
         height: 600px;
         background-size: 100%;
     }
