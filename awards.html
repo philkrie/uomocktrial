@@ -3,7 +3,7 @@
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en" ng-app = "uomocktrial">
+<html lang="en" ng-app = "mockApp">
 <!--<![endif]-->
 <!-- HEAD SECTION -->
 <head>
@@ -30,6 +30,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
     <script type="text/javascript" src="assets/js/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.8/angular-filter.js"></script>
     <script type="text/javascript" src="assets/js/app.js"></script>
       <style>
 
@@ -45,7 +46,7 @@
     </style>
 </head>
     <!--END HEAD SECTION -->
-<body ng-controller = "MockController as mock">   
+<body ng-controller = "MockController">   
      <!-- NAV SECTION -->
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
@@ -76,10 +77,8 @@
      <!--END NAV SECTION -->
    
      <!-- ABOUT SECTION -->
-      <div id="about-section" class="section" >
-        <div class="container" >
-          
-               
+    <div id="about-section" class="section" >
+        <div class="container" >     
             <div class="row main-low-margin">
                 <div class="col-md-10 col-sm-10" >
                     <h2 style="color:#004F36">Awards</h2>
@@ -88,182 +87,79 @@
                     </h5>
                 </div>
             </div>
-           
-            
         </div>
     </div>
 
     <div id="about-section-info" class="section">
-    <div class="container"  >
-        <div class="row main-low-margin text-center" id = "team">
-            <h1><font color="#000000">TEAM AWARDS</font></h1>
-        </div>
-        <div class="row main-low-margin text-center">
-                <div class="col-md-4 col-sm-4" >
-                    <img src="assets/img/trophies/soul.png" height="25%" width="25%"></i>
-                    <h3><a href = "" class="color-black">FIRST PLACE</a></h3>
-                    <h4>David Frohnmayer Invitational 2015</h4>
-                    <h4>Team Yellow</h4>
-                </div>
-                <div class="col-md-4 col-sm-4" >
-                    <img src="assets/img/trophies/marsh.png" height="25%" width="25%"></i>
-                    <h3><a href = "" class="color-black">THIRD PLACE</a></h3>
-                    <h4>David Frohnmayer Invitational 2015</h4>
-                    <h4>Team Chrome</h4>
-                </div>
-                <div class="col-md-4 col-sm-4" >
-                    <img src="assets/img/trophies/rainbow.png" height="25%" width="25%"></i>
-                    <h3><a href = "http://www.calmocktrial.com/WTMI_Tab_Summary_FINAL-9.pdf" class="color-black">HONORABLE MENTION</a></h3>
-                    <h4>Winston Thomas Memorial Invitational 2015</h4>
-                    <h4>Team 1325</h4>
-                </div>
-        </div>
-        <div class="row main-low-margin text-center">
-                <div class="col-md-4 col-sm-4" >
-                    <img src="assets/img//trophies/thunder.png" height="25%" width="25%">
-                    <h3><a href = "http://www.collegemocktrial.org/University%20of%20Washington%20TabSummary.pdf" class="color-black">FOURTH PLACE</a></h3>
-                    <h4>Emerald City Open 2014</h4>
-                    <h4>Team 1326</h4>
-                </div>   
-                <div class="col-md-4 col-sm-4" >
-                    <img src="assets/img//trophies/cascade.png" height="25%" width="25%"></i>
-                    <h3><a href = "http://www.collegemocktrial.org/Frohnmayer%20Tab%20Summary.pdf" class="color-black">FIRST PLACE</a></h3>
-                    <h4>David Frohnmayer Invitational 2014</h4>
-                    <h4>Team Green</h4>
-                </div> 
-                <div class="col-md-4 col-sm-4" >
-                    <img src="assets/img/trophies/boulder.png" height="25%" width="25%"></i>
-                    <h3><a href = "http://www.collegemocktrial.org/4Corvallis%20Regional%20Tab%20Summary%20-%20FINAL.pdf" class="color-black">ORCS BID</a></h3>
-                    <h4>Corvallis Regional 2014</h4>
-                    <h4>Team 1336</h4>
-                </div>
-        </div>
-         <div class="row main-low-margin text-center" id = "individual">
-            <h1><font color="#000000">INDIVIDUAL AWARDS</font></h1>
-        </div>
-         <div class="row text-center">
-            <h2 style="margin:20px"><font color="#000000">ATTORNEYS</font></h2>
-        </div>
-        <div class="row main-low-margin text-center">
-                <div class="col-md-3 col-sm-3" >
-                    <i class="fa fa-user fa-5x color-gold"></i>
-                    <h3>Greg Mina</h3>
-                    <h4>20 Ranks</h4>
-                    <h4>Emerald City Open 2014</h4>
-                </div> 
-                <div class="col-md-3 col-sm-3" >
-                    <i class="fa fa-user fa-5x color-gold"></i>
-                    <h3>Greg Mina</h3>
-                    <h4>19/18 Ranks</h4>
-                    <h4>David Frohnmayer Invitational 2015</h4>
-                </div>    
-                <div class="col-md-3 col-sm-3" >
-                    <i class="fa fa-user fa-5x color-gold"></i>
-                    <h3>Greg Mina</h3>
-                    <h4>19 Ranks</h4>
-                    <h4>Winston Thomas Memorial Invitational 2015</h4>
-                </div>               
-                <div class="col-md-3 col-sm-3" >
-                    <i class="fa fa-user fa-5x color-silver"></i>
-                    <h3>Riley Olson</h3>
-                    <h4>18 Ranks</h4>
-                    <h4>Boise Regional 2015</h4>
-                </div>  
-            </div> 
-            <div class="row main-low-margin text-center">
-                <div class="col-md-3 col-sm-3" >
-                    <i class="fa fa-user fa-5x color-silver"></i>
-                    <h3>Riley Olson</h3>
-                    <h4>18 Ranks</h4>
-                    <h4>David Frohnmayer Invitational 2015</h4>
-                </div>    
-                <div class="col-md-3 col-sm-3" >
-                    <i class="fa fa-user fa-5x color-silver"></i>
-                    <h3>Greg Mina</h3>
-                    <h4>18 Ranks</h4>
-                    <h4>Corvallis Regional 2014</h4>
-                </div>    
-                 <div class="col-md-3 col-sm-3" >
-                    <i class="fa fa-user fa-5x color-silver"></i>
-                    <h3>Jonathan Wu</h3>
-                    <h4>17 Ranks</h4>
-                    <h4>Corvallis Regional 2014</h4>
-                </div>    
-                <div class="col-md-3 col-sm-3" >
-                    <i class="fa fa-user fa-5x color-bronze"></i>
-                    <h3>Jonathan Wu</h3>
-                    <h4>16 Ranks</h4>
-                    <h4>Corvallis Regional 2013</h4>
-                </div>
-            </div>
-        <div class="row text-center main-low-margin">
-            <h2><font color="#000000">WITNESSES</font></h2>
-        </div>
-          <div class="row main-low-margin text-center">
-                <div class="col-md-3 col-sm-3" >
-                    <i class="fa fa-user fa-5x color-silver"></i>
-                    <h3>Phillip Kriegel</h3>
-                    <h4>18 Ranks</h4>
-                    <h4>Emerald City Open 2014</h4>
-                </div>               
-                <div class="col-md-3 col-sm-3" >
-                    <i class="fa fa-user fa-5x color-silver"></i>
-                    <h3>Phillip Kriegel</h3>
-                    <h4>18 Ranks</h4>
-                    <h4>Newport Beach ORCS 2014</h4>
-                </div>
-                <div class="col-md-3 col-sm-3" >
-                    <i class="fa fa-user fa-5x color-silver"></i>
-                    <h3>Phillip Kriegel</h3>
-                    <h4>17 Ranks</h4>
-                    <h4>Corvallis Regional 2014</h4>
-                </div>    
-                <div class="col-md-3 col-sm-3" >
-                    <i class="fa fa-user fa-5x color-silver"></i>
-                    <h3>Gwen Styarfyr</h3>
-                    <h4>17 Ranks</h4>
-                    <h4>Corvallis Regional 2012</h4>
-                </div>    
+        <div class="container"  >
+            <div class="row main-low-margin text-center" id = "team">
+                <h1><font color="#000000">TEAM AWARDS</font></h1>
             </div>
             <div class="row main-low-margin text-center">
-                <div class="col-md-4 col-sm-4" >
-                    <i class="fa fa-user fa-5x color-silver"></i>
-                    <h3>Phillip Kriegel</h3>
-                    <h4>17 Ranks</h4>
-                    <h4>David Frohnmayer Invitational 2015</h4>
-                </div>    
-                <div class="col-md-4 col-sm-4" >
-                    <i class="fa fa-user fa-5x color-silver"></i>
-                    <h3>Sadie Kavalier</h3>
-                    <h4>17 Ranks</h4>
-                    <h4>David Frohnmayer Invitational 2015</h4>
-                </div>               
-                <div class="col-md-4 col-sm-4" >
-                    <i class="fa fa-user fa-5x color-bronze"></i>
-                    <h3>Caroline Doss</h3>
-                    <h4>16 Ranks</h4>
-                    <h4>David Frohnmayer Invitational 2015</h4>
-                </div>     
+                    <div class="col-md-4 col-sm-4" >
+                        <img src="assets/img/trophies/soul.png" height="25%" width="25%"></i>
+                        <h3><a href = "" class="color-black">FIRST PLACE</a></h3>
+                        <h4>David Frohnmayer Invitational 2015</h4>
+                        <h4>Team Yellow</h4>
+                    </div>
+                    <div class="col-md-4 col-sm-4" >
+                        <img src="assets/img/trophies/marsh.png" height="25%" width="25%"></i>
+                        <h3><a href = "" class="color-black">THIRD PLACE</a></h3>
+                        <h4>David Frohnmayer Invitational 2015</h4>
+                        <h4>Team Chrome</h4>
+                    </div>
+                    <div class="col-md-4 col-sm-4" >
+                        <img src="assets/img/trophies/rainbow.png" height="25%" width="25%"></i>
+                        <h3><a href = "http://www.calmocktrial.com/WTMI_Tab_Summary_FINAL-9.pdf" class="color-black">HONORABLE MENTION</a></h3>
+                        <h4>Winston Thomas Memorial Invitational 2015</h4>
+                        <h4>Team 1325</h4>
+                    </div>
             </div>
-             <div class="row main-low-margin text-center">
-                <div class="col-md-4 col-sm-4" >
-                    <i class="fa fa-user fa-5x color-bronze"></i>
-                    <h3>Devon Staton-Ralston</h3>
-                    <h4>16 Ranks</h4>
-                    <h4>Emerald City Open 2014</h4>
-                </div>    
-                <div class="col-md-4 col-sm-4" >
-                    <i class="fa fa-user fa-5x color-bronze"></i>
-                    <h3>Alex Kummer</h3>
-                    <h4>16 Ranks</h4>
-                    <h4>Corvallis Regional 2014</h4>
-                </div>               
-                <div class="col-md-4 col-sm-4" >
-                    <i class="fa fa-user fa-5x color-bronze"></i>
-                    <h3>Megan Wever</h3>
-                    <h4>16 Ranks</h4>
-                    <h4>Corvallis Regional 2013</h4>
-                </div>     
+            <div class="row main-low-margin text-center">
+                    <div class="col-md-4 col-sm-4" >
+                        <img src="assets/img//trophies/thunder.png" height="25%" width="25%">
+                        <h3><a href = "http://www.collegemocktrial.org/University%20of%20Washington%20TabSummary.pdf" class="color-black">FOURTH PLACE</a></h3>
+                        <h4>Emerald City Open 2014</h4>
+                        <h4>Team 1326</h4>
+                    </div>   
+                    <div class="col-md-4 col-sm-4" >
+                        <img src="assets/img//trophies/cascade.png" height="25%" width="25%"></i>
+                        <h3><a href = "http://www.collegemocktrial.org/Frohnmayer%20Tab%20Summary.pdf" class="color-black">FIRST PLACE</a></h3>
+                        <h4>David Frohnmayer Invitational 2014</h4>
+                        <h4>Team Green</h4>
+                    </div> 
+                    <div class="col-md-4 col-sm-4" >
+                        <img src="assets/img/trophies/boulder.png" height="25%" width="25%"></i>
+                        <h3><a href = "http://www.collegemocktrial.org/4Corvallis%20Regional%20Tab%20Summary%20-%20FINAL.pdf" class="color-black">ORCS BID</a></h3>
+                        <h4>Corvallis Regional 2014</h4>
+                        <h4>Team 1336</h4>
+                    </div>
+            </div>
+
+            <div class="row main-low-margin text-center" id = "individual">
+                <h1><font color="#000000">INDIVIDUAL AWARDS</font></h1>
+            </div>
+            <div class="row text-center">
+                <h2 style="margin:20px"><font color="#000000">ATTORNEYS</font></h2>
+            </div>
+            <div class="row main-low-margin text-center" ng-repeat = "members in awards.attorney | orderBy:'ranks':true|chunkBy:4">
+                    <div class="col-md-3 col-sm-3" ng-repeat = "member in members">
+                        <i ng-class="scoreRank(member.ranks)"></i>
+                        <h3>{{member.name}}</h3>
+                        <h4>{{member.ranks}} Ranks</h4>
+                        <h4>{{member.location}}</h4>
+                    </div> 
+            </div>
+            <div class="row text-center main-low-margin">
+                <h2><font color="#000000">WITNESSES</font></h2>
+            </div>
+                  <div class="row main-low-margin text-center" ng-repeat = "members in awards.witness | orderBy:'ranks':true|chunkBy:4">
+                        <div class="col-md-3 col-sm-3" ng-repeat = "member in members">
+                            <i ng-class="scoreRank(member.ranks)"></i>
+                            <h3>{{member.name}}</h3>
+                            <h4>{{member.ranks}} Ranks</h4>
+                            <h4>{{member.location}}</h4>
+                    </div> 
             </div>
         </div>
     </div>

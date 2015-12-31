@@ -3,7 +3,7 @@
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en" ng-app = "uomocktrial">
+<html lang="en" ng-app = "mockApp">
 <!--<![endif]-->
 <!-- HEAD SECTION -->
 <head>
@@ -30,10 +30,11 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
     <script type="text/javascript" src="assets/js/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.8/angular-filter.js"></script>
     <script type="text/javascript" src="assets/js/app.js"></script>
 </head>
     <!--END HEAD SECTION -->
-<body ng-controller = "MockController as mock" style = "height:3000px; width:2000px">   
+<body ng-controller = "MockController" style = "height:3000px; width:2000px">   
      <!-- NAV SECTION -->
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
@@ -83,26 +84,17 @@
 
     <div id="about-section-info" class="section">
     <div class="container"  >
-        <div ng-repeat = "member in roster" ng-if="$index % 3 == 0" class="row main-low-margin text-center">
-            <div class="col-md-4 col-sm-4" ng-hide = "roster.length <= $index">
-                <img ng-src="{{roster[$index].image}}" class="circle">
-                <h3>{{roster[$index].name}}</h3>
+        <br>
+        Search our roster:
+        <br>
+        <input class="form-control mocker-search" type="text" placeholder="Mocker, Hobby, Town, Aspirations" ng-model="filter.name"/>
+        <br>
+        <div class="row main-low-margin text-center" ng-repeat = "members in roster | filter:filter.name | orderBy: 'last'| chunkBy:3">
+            <div class="col-md-4 col-sm-4" ng-repeat = "member in members">
+                <img ng-src="{{member.image}}" class="circle">
+                <h3>{{member.first}} {{member.last}}</h3>
                 <p align="justify">
-                    {{roster[$index].description}}
-                </p>
-            </div>
-            <div class="col-md-4 col-sm-4" ng-hide = "roster.length <= $index + 1">
-                <img ng-src="{{roster[$index + 1].image}}" class="circle">
-                <h3>{{roster[$index + 1].name}}</h3>
-                <p align="justify">
-                    {{roster[$index + 1].description}}
-                </p>
-            </div>
-            <div class="col-md-4 col-sm-4" ng-hide = "roster.length <= $index + 2">
-                <img ng-src="{{roster[$index + 2].image}}" class="circle">
-                <h3>{{roster[$index + 2].name}}</h3>
-                <p align="justify">
-                    {{roster[$index + 2].description}}
+                    {{member.description}}
                 </p>
             </div>
         </div>
@@ -120,43 +112,43 @@
         </div>
         <div class="row main-low-margin text-center" >  
             <div class="col-md-5 col-sm-5" >
-                <img ng-src="{{mock.cabinet[0].image}}" class="circle">
-                    <h3>{{mock.cabinet[0].name}}</h3>
-                    <h4 style="padding:0; margin:0">{{mock.cabinet[0].position}}</h4>
-                    <h5 style="padding:0; margin:0">{{mock.cabinet[0].subtext}}</h5>
-                    <h5 style="padding:0; margin:0"><a href="{{mock.cabinet[0].email}}">{{mock.cabinet[0].email}}</a></h5>
+                <img ng-src="{{cabinet[0].image}}" class="circle">
+                    <h3>{{cabinet[0].name}}</h3>
+                    <h4 style="padding:0; margin:0">{{cabinet[0].position}}</h4>
+                    <h5 style="padding:0; margin:0">{{cabinet[0].subtext}}</h5>
+                    <h5 style="padding:0; margin:0"><a href="{{cabinet[0].email}}">{{cabinet[0].email}}</a></h5>
             </div>
             <div class="col-md-2 col-sm-2" >
-                <img ng-src="{{mock.cabinet[1].image}}" class="circle">
-                    <h3>{{mock.cabinet[1].name}}</h3>
-                    <h4 style="padding:0; margin:0">{{mock.cabinet[1].position}}</h4>
-                    <h5 style="padding:0; margin:0">{{mock.cabinet[1].subtext}}</h5>
-                    <h5 style="padding:0; margin:0"><a href="{{mock.cabinet[1].email}}">{{mock.cabinet[1].email}}</a></h5>
+                <img ng-src="{{cabinet[1].image}}" class="circle">
+                    <h3>{{cabinet[1].name}}</h3>
+                    <h4 style="padding:0; margin:0">{{cabinet[1].position}}</h4>
+                    <h5 style="padding:0; margin:0">{{cabinet[1].subtext}}</h5>
+                    <h5 style="padding:0; margin:0"><a href="{{cabinet[1].email}}">{{cabinet[1].email}}</a></h5>
             </div> 
             <div class="col-md-5 col-sm-5" >
-                <img ng-src="{{mock.cabinet[2].image}}" class="circle">
-                    <h3>{{mock.cabinet[2].name}}</h3>
-                    <h4 style="padding:0; margin:0">{{mock.cabinet[2].position}}</h4>
-                    <h5 style="padding:0; margin:0">{{mock.cabinet[2].subtext}}</h5>
-                    <h5 style="padding:0; margin:0"><a href="{{mock.cabinet[2].email}}">{{mock.cabinet[2].email}}</a></h5>
+                <img ng-src="{{cabinet[2].image}}" class="circle">
+                    <h3>{{cabinet[2].name}}</h3>
+                    <h4 style="padding:0; margin:0">{{cabinet[2].position}}</h4>
+                    <h5 style="padding:0; margin:0">{{cabinet[2].subtext}}</h5>
+                    <h5 style="padding:0; margin:0"><a href="{{cabinet[2].email}}">{{cabinet[2].email}}</a></h5>
             </div>
         </div>
          <div class="row main-low-margin text-center" > 
          <div class="col-md-3 col-sm-3" >
             </div>   
             <div class="col-md-3 col-sm-3" >
-                <img ng-src="{{mock.cabinet[3].image}}" class="circle">
-                    <h3>{{mock.cabinet[3].name}}</h3>
-                    <h4 style="padding:0; margin:0">{{mock.cabinet[3].position}}</h4>
-                    <h5 style="padding:0; margin:0">{{mock.cabinet[3].subtext}}</h5>
-                    <h5 style="padding:0; margin:0"><a href="{{mock.cabinet[3].email}}">{{mock.cabinet[3].email}}</a></h5>
+                <img ng-src="{{cabinet[3].image}}" class="circle">
+                    <h3>{{cabinet[3].name}}</h3>
+                    <h4 style="padding:0; margin:0">{{cabinet[3].position}}</h4>
+                    <h5 style="padding:0; margin:0">{{cabinet[3].subtext}}</h5>
+                    <h5 style="padding:0; margin:0"><a href="{{cabinet[3].email}}">{{cabinet[3].email}}</a></h5>
             </div>
             <div class="col-md-3 col-sm-3" >
-                <img ng-src="{{mock.cabinet[4].image}}" class="circle">
-                    <h3>{{mock.cabinet[4].name}}</h3>
-                    <h4 style="padding:0; margin:0">{{mock.cabinet[4].position}}</h4>
-                    <h5 style="padding:0; margin:0">{{mock.cabinet[4].subtext}}</h5>
-                    <h5 style="padding:0; margin:0"><a href="{{mock.cabinet[4].email}}">{{mock.cabinet[4].email}}</a></h5>
+                <img ng-src="{{cabinet[4].image}}" class="circle">
+                    <h3>{{cabinet[4].name}}</h3>
+                    <h4 style="padding:0; margin:0">{{cabinet[4].position}}</h4>
+                    <h5 style="padding:0; margin:0">{{cabinet[4].subtext}}</h5>
+                    <h5 style="padding:0; margin:0"><a href="{{cabinet[4].email}}">{{cabinet[4].email}}</a></h5>
             </div>
             <div class="col-md-3 col-sm-3" >
             </div>  
