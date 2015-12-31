@@ -30,6 +30,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
     <script type="text/javascript" src="assets/js/angular.min.js"></script>
+    <script type="text/javascript" src="assets/js/angular-animate.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.8/angular-filter.js"></script>
     <script type="text/javascript" src="assets/js/app.js"></script>
 </head>
@@ -89,7 +90,7 @@
         <br>
         <input class="form-control mocker-search" type="text" placeholder="Mocker, Hobby, Town, Aspirations" ng-model="filter.name"/>
         <br>
-        <div class="row main-low-margin text-center" ng-repeat = "members in roster | filter:filter.name | orderBy: 'last'| chunkBy:3">
+        <div class="row main-low-margin text-center" ng-repeat = "members in roster | filter: filter.name| orderBy: 'last'| chunkBy:3">
             <div class="col-md-4 col-sm-4" ng-repeat = "member in members">
                 <img ng-src="{{member.image}}" class="circle">
                 <h3>{{member.first}} {{member.last}}</h3>
@@ -98,6 +99,13 @@
                 </p>
             </div>
         </div>
+        
+    <div ng-if="bool" class="fade">
+   Fade me in out
+</div>
+<button ng-click="bool=true">Fade In!</button>
+<button ng-click="bool=false">Fade Out!</button>
+
 
     
 

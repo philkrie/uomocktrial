@@ -1,7 +1,7 @@
 /*global angular */
 (function () {
     'use strict';
-    var mockApp = angular.module('mockApp', ['angular.filter'])
+    var mockApp = angular.module('mockApp', ['angular.filter', 'ngAnimate'])
     
     mockApp.controller('MockController', ['$scope', function($scope) {
         $scope.roster = [
