@@ -326,7 +326,7 @@
                         },
                      { name: "Phillip Kriegel",
                  		ranks: 17,
-                 		location: "UCLAssic 2016"
+                 		location: "UCLASSIC 2016"
                  	 	}
                 ]   
         };
