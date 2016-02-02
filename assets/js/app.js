@@ -37,7 +37,7 @@
             
             {   first: "Ally",
                 last: "Jansky",
-                image: "assets/img/headshots/blank.png",
+                image: "assets/img/headshots/ally.jpg",
                 description: "Ally is a freshman from Portland, OR, pursuing a major in Political Science while studying within the Clark Honors College. She competed in speech and debate during her senior year in high school. She also competed in mock trial cases multiple times throughout high school. Ally has enjoyed an illustrious acting career, meaning she was in two student-written student- directed  plays during the course of her junior and senior years. In her free time, she likes to read the case over and over until her eyes disintegrate or she runs out of coffee."},
             
             {   first: "Sadie",
