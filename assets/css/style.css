@@ -420,9 +420,17 @@ section {
     }
 
     section:nth-of-type(2) {
-        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url(../img/parallax/uclassic.jpg) no-repeat;
+        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url(../img/parallax/uclassic.jpg) fixed no-repeat;
         height: 600px;
         background-size: 100%;
+        position: relative;
+    }
+
+    section:nth-of-type(3) {
+        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url(../img/parallax/scrimmage.jpg) fixed no-repeat;
+        height: 600px;
+        background-size: 100%;
+        position: relative;
     }
 
     @media (max-width: 820px){
@@ -431,14 +439,27 @@ section {
 
     @media (max-width : 1000px) {
         section:nth-of-type(2) {
-            height: 400px;
+            height: 50vh;
+            background-size: 150vh;
+            background-postion: center;
+            }
+        section:nth-of-type(3) {
+            height: 50vh;
+            background-size: 150vh;
+            background-postion: center;
             }
         }
 
     @media (max-width : 525px) {
         section:nth-of-type(2) {
-            background-size: 150%;
-            background-position: center top;
+            height: 50vh;
+            background-size: 150vh;
+            background-postion: center;
+            }
+        section:nth-of-type(3) {
+            height: 50vh;
+            background-size: 150vh;
+            background-postion: center;
             }
         }
 
