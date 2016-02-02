@@ -1,7 +1,7 @@
 /*global angular */
 (function () {
     'use strict';
-    var mockApp = angular.module('mockApp', ['angular.filter', 'ngAnimate'])
+    var mockApp = angular.module('mockApp', ['angular.filter'])
     
     mockApp.controller('MockController', ['$scope', function($scope) {
         $scope.roster = [
@@ -257,9 +257,21 @@
                     { name: "Niharika Sachdeva",
                         ranks: 18,
                         location: "Emerald City Open 2015",
-                        }
+                        },
+                    { name: "Greg Mina",
+                		ranks: 18,
+                		location: "UCLAssic 2016"
+                	},
+                    { name: "Sara Gaylon",
+                        ranks: 16,
+                        location: "Stanford University Mock Trial Invitational 2016"
+                    }
                 ],
                 witness:[
+                    { name: "Phillip Kriegel",
+                        ranks: 17,
+                        location: "Stanford University Mock Trial Invitational 2016"
+                    },
                     { name: "Keith Bunting",
                         ranks: 19,
                         location: "Emerald City Open 2015",
@@ -271,10 +283,6 @@
                     { name: "Phillip Kriegel",
                         ranks: 18,
                         location: "Emerald City Open 2015",
-                        },
-                    { name: "Phillip Kriegel",
-                        ranks: 18,
-                        location: "Emerald City Open 2014",
                         },
                     { name: "Phillip Kriegel",
                         ranks: 18,
@@ -315,7 +323,11 @@
                      { name: "Megan Wever",
                         ranks: 16,
                         location: "Corvallis Regional 2013",
-                        }
+                        },
+                     { name: "Phillip Kriegel",
+                 		ranks: 17,
+                 		location: "UCLAssic 2016"
+                 	 	}
                 ]   
         };
         $scope.scoreRank = function(score) {
