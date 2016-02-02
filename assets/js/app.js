@@ -260,7 +260,7 @@
                         },
                     { name: "Greg Mina",
                 		ranks: 18,
-                		location: "UCLAssic 2016"
+                		location: "UCLASSIC 2016"
                 	},
                     { name: "Sara Gaylon",
                         ranks: 18,
