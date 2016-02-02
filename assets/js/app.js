@@ -42,8 +42,8 @@
             
             {   first: "Sadie",
                 last: "Kavalier",
-                image: "assets/img/headshots/blank.png",
-                description: ""},
+                image: "assets/img/headshots/sadie.jpg",
+                description: "Sadie is a freshman within the Honors College pursuing a degree in Finance. She hails from Tama, Iowa, where her family owns and operates an alpaca farm consisting of 12 fluffy camelids. Sadie did not have any mock trial experience in high school but was an All-State speech performer in both large group and individual divisions. She is also a member of the Delta Delta Delta chapter at the University of Oregon. Sadie would like to dedicate this season to her fallen alpaca brethren, Earl."},
             
             {   first: "Sabine",
                 last: "Slome",
