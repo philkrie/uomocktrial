@@ -103,7 +103,7 @@
             {   first: "MJ",
                 last: "Flores",
                 image: "assets/img/headshots/mj.jpg",
-                description: "MJ is a Junior from Phoenix, Arizona, pursuing a major in Political Science  and a major in Economics, with a minor in History. He is best known for his ability to portray witnesses of Latin descent. He is a fearsome adversary in the courtroom, as those who cross him can say with certainty. He wishes to go on to law school, and continue pursuing a legal career as a cooperate attorney."},
+                description: "MJ is a Junior from Phoenix, Arizona, pursuing a major in Political Science  and a major in Economics, with a minor in History. He is best known for his ability to portray witnesses of Latin descent. He is a fearsome adversary in the courtroom, as those who cross him can say with certainty. He wishes to go on to law school, and continue pursuing a legal career as a corporate attorney."},
             
             {   first: "Aviva",
                 last: "Kaye-Diamond",
@@ -263,7 +263,7 @@
                 		location: "UCLAssic 2016"
                 	},
                     { name: "Sara Gaylon",
-                        ranks: 16,
+                        ranks: 18,
                         location: "Stanford University Mock Trial Invitational 2016"
                     }
                 ],
