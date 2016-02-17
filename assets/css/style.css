@@ -420,13 +420,20 @@ section {
     }
 
     section:nth-of-type(2) {
-        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url(../img/parallax/uclassic.jpg) fixed no-repeat;
+        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url(../img/parallax/ateamboise.jpg) fixed no-repeat;
         height: 600px;
         background-size: 100%;
         position: relative;
     }
 
     section:nth-of-type(3) {
+        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url(../img/parallax/bteamboise.jpg) fixed no-repeat;
+        height: 600px;
+        background-size: 100%;
+        position: relative;
+    }
+
+    section:nth-of-type(4) {
         background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url(../img/parallax/scrimmage.jpg) fixed no-repeat;
         height: 600px;
         background-size: 100%;
@@ -448,6 +455,11 @@ section {
             background-size: 150vh;
             background-postion: center;
             }
+        section:nth-of-type(4) {
+            height: 50vh;
+            background-size: 150vh;
+            background-postion: center;
+            }
         }
 
     @media (max-width : 525px) {
@@ -457,6 +469,11 @@ section {
             background-postion: center;
             }
         section:nth-of-type(3) {
+            height: 50vh;
+            background-size: 150vh;
+            background-postion: center;
+            }
+        section:nth-of-type(4) {
             height: 50vh;
             background-size: 150vh;
             background-postion: center;

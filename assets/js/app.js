@@ -32,8 +32,8 @@
             
             {   first: "Andrew",
                 last: "Dizon",
-                image: "assets/img/headshots/blank.png",
-                description: ""},
+                image: "assets/img/headshots/andrew.jpg",
+                description: "Andrew Dizon is a freshman from Rancho Palos Verdes, CA double majoring in Psychology and Philosophy. He has no prior Mock Trial experience, but was in a handful of high school plays. Andrew is also the director of Philanthropy and Community Service for his Fraternity Alpha Sigma Phi and a member or the Oregon Crew team. Ultimately, he is very tired."},
             
             {   first: "Ally",
                 last: "Jansky",
@@ -151,7 +151,7 @@
                 description: "Sara Gaylon is a junior from Sacramento, CA pursuing a double major in Economics and History and a minor in Environmental Studies. This is her second year doing mock trial and second full year competing with UOMT, where she serves as the Social Events Chair. Sara enjoys spending time in the outdoors and hopes to pursue a future studying and practicing environmental law."},
 
             {   first: "Riley",
-                last: "Olsen",
+                last: "Olson",
                 image: "assets/img/headshots/blank.png",
                 description: ""},
 
@@ -265,6 +265,10 @@
                     { name: "Sara Gaylon",
                         ranks: 18,
                         location: "Stanford University Mock Trial Invitational 2016"
+                    },
+                    { name: "Riley Olson",
+                        ranks: 16,
+                        location: "Boise Regional 2016"
                     }
                 ],
                 witness:[
@@ -327,7 +331,11 @@
                      { name: "Phillip Kriegel",
                  		ranks: 17,
                  		location: "UCLASSIC 2016"
-                 	 	}
+                 	 	}, 
+                     { name: "Andrew Dizon",
+                        ranks: 17,
+                        location: "Boise Regional 2016"
+                     }
                 ]   
         };
         $scope.scoreRank = function(score) {
