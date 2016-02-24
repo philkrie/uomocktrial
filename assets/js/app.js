@@ -333,7 +333,7 @@
                  		location: "UCLASSIC 2016"
                  	 	}, 
                      { name: "Andrew Dizon",
-                        ranks: 17,
+                        ranks: 16,
                         location: "Boise Regional 2016"
                      }
                 ]   

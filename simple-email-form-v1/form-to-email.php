@@ -7,7 +7,7 @@ EMAIL_RECIPIENTS - your email address where you want to get the form submission.
 
 */
 
-$email_recipients = "gmina@uoregon.edu";//<<=== enter your email address here
+$email_recipients = "mocktrial@uoregon.edu";//<<=== enter your email address here
 //$email_recipients =  "mymanager@gmail.com,his.manager@yahoo.com"; <<=== more than one recipients like this
 
 
@@ -24,10 +24,9 @@ $auto_response_subj = "Thanks for contacting UOMT";
 $auto_response ="
 Hi
 
-Thanks for contacting me. I will get back to you as soon as I can!
+Thanks for contacting us. We will get back to you as soon as we can!
 
-Regards
-Greg Mina
+-UOMT
 ";
 
 /*optional settings. better leave it as is for the first time*/
