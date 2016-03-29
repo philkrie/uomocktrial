@@ -181,15 +181,15 @@
                 description: ""},
         ];
         $scope.cabinet = [
-            { name: "Charles Steenkolk",
-                image: "assets/img/headshots/charles.jpg",
+            { name: "Olivia Courogen",
+                image: "assets/img/headshots/olivia.jpg",
                 position: "VICE PRESIDENT",
                 subtext: "OPERATIONS",
                 email: "steenkol@uoregon.edu"
                 },
             
-            { name: "Greg Mina",
-                image: "assets/img/headshots/greg.jpg",
+            { name: "Sara Gaylon",
+                image: "assets/img/headshots/sara.jpg",
                 position: "PRESIDENT",
                 subtext: "(719) 330-5004",
                 email: "gmina@uoregon.edu"
@@ -202,8 +202,8 @@
                 email: "niharika@uoregon.edu"
                 },
             
-            { name: "Thomas Dal Pino",
-                image: "assets/img/headshots/thomas.jpg",
+            { name: "Riley Olson",
+                image: "assets/img/headshots/blank.png",
                 position: "VICE PRESIDENT",
                 subtext: "INSTRUCTION",
                 email: "tdalpino@uoregon.edu"

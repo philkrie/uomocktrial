@@ -12,7 +12,7 @@ var tournaments = [
     new google.maps.LatLng(43.6167, -116.2000), //Idaho
     new google.maps.LatLng(33.6167, -117.8975), //Newport Beach
     new google.maps.LatLng(34.0722, -118.4441), //UClassic
-    new google.maps.LatLng(37.4225, -122.1653) //Stanford
+    new google.maps.LatLng(37.4225, -122.1653)  //Stanford
 ];
 
 var i;
