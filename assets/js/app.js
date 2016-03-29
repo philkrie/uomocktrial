@@ -185,14 +185,14 @@
                 image: "assets/img/headshots/olivia.jpg",
                 position: "VICE PRESIDENT",
                 subtext: "OPERATIONS",
-                email: "steenkol@uoregon.edu"
+                email: "oac@uoregon.edu"
                 },
             
             { name: "Sara Gaylon",
                 image: "assets/img/headshots/sara.jpg",
                 position: "PRESIDENT",
                 subtext: "(719) 330-5004",
-                email: "gmina@uoregon.edu"
+                email: "sgaylon@uoregon.edu"
                 },
             
             { name: "Niharika Sachdeva",
@@ -206,7 +206,7 @@
                 image: "assets/img/headshots/blank.png",
                 position: "VICE PRESIDENT",
                 subtext: "INSTRUCTION",
-                email: "tdalpino@uoregon.edu"
+                email: "rolson@uoregon.edu"
                 },
             
             { name: "Michaela Kurinsky-Malos",
@@ -230,6 +230,10 @@
                         ranks: 18,
                         location: "David Frohnmayer Invitational 2015",
                         },
+                    { name: "Greg Mina",
+                        ranks: 18.5,
+                        location: "Geneva ORCS 2016"
+                    },
                     { name: "Greg Mina",
                         ranks: 19,
                         location: "Winston Thomas Memorial Invitational 2015",
@@ -261,11 +265,11 @@
                     { name: "Greg Mina",
                 		ranks: 18,
                 		location: "UCLASSIC 2016"
-                	},
+                	   },
                     { name: "Sara Gaylon",
                         ranks: 18,
                         location: "Stanford University Mock Trial Invitational 2016"
-                    },
+                        },
                     { name: "Riley Olson",
                         ranks: 16,
                         location: "Boise Regional 2016"
@@ -273,9 +277,17 @@
                 ],
                 witness:[
                     { name: "Phillip Kriegel",
+                        ranks: 18,
+                        location: "Geneva ORCS 2016"
+                    },
+                    { name: "Phillip Kriegel",
+                        ranks: 17,
+                        location: "Geneva ORCS 2016"
+                        },
+                    { name: "Phillip Kriegel",
                         ranks: 17,
                         location: "Stanford University Mock Trial Invitational 2016"
-                    },
+                        },
                     { name: "Keith Bunting",
                         ranks: 19,
                         location: "Emerald City Open 2015",
