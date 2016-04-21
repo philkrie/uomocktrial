@@ -96,7 +96,14 @@
                 <h1><font color="#000000">TEAM AWARDS</font></h1>
             </div>
             <div class="row main-low-margin text-center">
-                    <div class="col-md-4 col-sm-4 col-md-offset-4 col-sm-offset-4" >
+                    <div class="col-md-4 col-sm-4 col-md-offset-2 col-sm-offset-2" >
+                        <img src="assets/img/trophies/poketrophy.png" height="50%" width="50%"></i>
+                        <h3><a href = "http://www.collegemocktrial.org/1%20-%20Geneva%20ORCS%20Tab%20Summary%20FINAL.pdf" class="color-black">Jim ’64 and Carol ’67 Ney Outstanding Bell Tower Championship Trial Team</a></h3>
+                        <h3>10<sup>th</sup> PLACE</h3>
+                        <h4>32nd AMTA National Championship Tournament - Estridge Division</h4>
+                        <h4>Team 1389</h4>
+                    </div>
+                    <div class="col-md-4 col-sm-4" >
                         <img src="assets/img/trophies/hive.png" height="25%" width="25%"></i>
                         <h3><a href = "http://www.collegemocktrial.org/1%20-%20Geneva%20ORCS%20Tab%20Summary%20FINAL.pdf" class="color-black">NATIONALS BID</a></h3>
                         <h3>5<sup>th</sup> PLACE</h3>
@@ -179,26 +186,47 @@
                 <h2 style="margin:20px"><font color="#000000">ATTORNEYS</font></h2>
             </div>
             <div class="row main-low-margin text-center" ng-repeat = "members in awards.attorney | orderBy:'ranks':true|chunkBy:4">
-                    <div class="col-md-3 col-sm-3" ng-repeat = "member in members">
-                        <i ng-class="scoreRank(member.ranks)"></i>
-                        <h3>{{member.name}}</h3>
-                        <h4>{{member.ranks}} Ranks</h4>
-                        <h4>{{member.location}}</h4>
-                    </div> 
+                <div class="col-md-3 col-sm-3" ng-repeat = "member in members">
+                    <i ng-class="scoreRank(member.ranks)"></i>
+                    <h3>{{member.name}}</h3>
+                    <h4>{{member.ranks}} Ranks</h4>
+                    <h4>{{member.location}}</h4>
+                </div> 
             </div>
             <div class="row text-center main-low-margin">
                 <h2><font color="#000000">WITNESSES</font></h2>
             </div>
-                  <div class="row main-low-margin text-center" ng-repeat = "members in awards.witness | orderBy:'ranks':true|chunkBy:4">
-                        <div class="col-md-3 col-sm-3" ng-repeat = "member in members">
-                            <i ng-class="scoreRank(member.ranks)"></i>
+            <div class="row main-low-margin text-center" ng-repeat = "members in awards.witness | orderBy:'ranks':true|chunkBy:4">
+                <div class="col-md-3 col-sm-3" ng-repeat = "member in members">
+                    <i ng-class="scoreRank(member.ranks)"></i>
+                    <h3>{{member.name}}</h3>
+                    <h4>{{member.ranks}} Ranks</h4>
+                    <h4>{{member.location}}</h4>
+                </div> 
+            </div>
+            <div class="row text-center main-low-margin">
+                <h2><font color="#000000">HALL OF FAME</font></h2>
+            </div>
+            <div class="row main-low-margin text-center" ng-repeat = "members in awards.fame|chunkBy:1">
+                <div ng-repeat = "member in members">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="col-md-4 col-sm-4">
+                            <img ng-src="{{member.leftimage}}" class="circle">
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <img ng-src="{{member.image}}" class="circle">
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <img ng-src="{{member.rightimage}}" style="width:120px;height:120px">
+                        </div>
                             <h3>{{member.name}}</h3>
-                            <h4>{{member.ranks}} Ranks</h4>
-                            <h4>{{member.location}}</h4>
+                            <h4>{{member.position}}</h4>
+                            <h4>{{member.description}}</h4>
                     </div> 
             </div>
         </div>
     </div>
+
     <div class="space-bottom" style="background-color:white"></div>
         <!--END ABOUT SECTION -->
      <!--PARALLAX SECTION ONE-->

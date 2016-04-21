@@ -277,6 +277,14 @@
                 ],
                 witness:[
                     { name: "Phillip Kriegel",
+                        ranks: 42,
+                        location: "32nd AMTA National Championship Tournament - Estridge Division"
+                    },
+                    { name: "Phillip Kriegel",
+                        ranks: 39,
+                        location: "32nd AMTA National Championship Tournament - Estridge Division"
+                    },
+                    { name: "Phillip Kriegel",
                         ranks: 18,
                         location: "Geneva ORCS 2016"
                     },
@@ -348,6 +356,19 @@
                         ranks: 16,
                         location: "Boise Regional 2016"
                      }
+                ],
+                fame:[
+                    { name: "Charles Steenkolk",
+                        image: "assets/img/headshots/carlos.jpg",
+                        leftimage: "assets/img/extra/timegod.jpg",
+                        rightimage: "assets/img/extra/ocarina.png",
+                        position: 'Timekeeper/Timelord',
+                        description: 'By acclamantion, Charles Steenkolk is the greatest timekeeper of all time. ' +
+                        'Although a summary of his timekeeper career and influence on the sport inevitably fails to do it justice, ' +
+                        'as a phenomenal timer with a unique combination of fundamental soundness, volume, speed, firmness, artistry, improvisational ' +
+                        'ability and an unquenchable competitive desire, Steenkolk singlehandedly redefined the mock trial superstar. ' +
+                        'He left the sport having set the all time record for most "STOP NO SERIOUSLY STOP TALKING YOUR TIME IS UP STOP"s ever in a season'
+                    }
                 ]   
         };
         $scope.scoreRank = function(score) {
