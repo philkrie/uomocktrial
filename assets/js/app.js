@@ -191,7 +191,7 @@
             { name: "Sara Gaylon",
                 image: "assets/img/headshots/sara.jpg",
                 position: "PRESIDENT",
-                subtext: "(719) 330-5004",
+                subtext: "(916) 494-3591",
                 email: "sgaylon@uoregon.edu"
                 },
             
@@ -209,11 +209,11 @@
                 email: "rolson@uoregon.edu"
                 },
             
-            { name: "Michaela Kurinsky-Malos",
-                image: "assets/img/headshots/michaela.jpg",
+            { name: "Melissa Liu",
+                image: "assets/img/headshots/blank.png",
                 position: "VICE PRESIDENT",
                 subtext: "TOURNAMENTS",
-                email: "mkurinsk@uoregon.edu"
+                email: "melissal@uoregon.edu"
                 }
         ];
         $scope.awards = {
