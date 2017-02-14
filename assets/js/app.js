@@ -188,18 +188,18 @@
                 email: "oac@uoregon.edu"
                 },
             
-            { name: "Sara Gaylon",
-                image: "assets/img/headshots/sara.jpg",
-                position: "PRESIDENT",
-                subtext: "(916) 494-3591",
-                email: "sgaylon@uoregon.edu"
-                },
-            
             { name: "Niharika Sachdeva",
                 image: "assets/img/headshots/niharika.jpg",
+                position: "MADAM PRES",
+                subtext: "(541) 525-1910",
+                email: "niharika@uoregon.edu"
+                },
+            
+            { name: "Areeb Alam",
+                image: "assets/img/headshots/areeb.jpg",
                 position: "VICE PRESIDENT",
                 subtext: "COMMUNICATIONS",
-                email: "niharika@uoregon.edu"
+                email: "aalam@uoregon.edu"
                 },
             
             { name: "Riley Olson",
@@ -273,6 +273,42 @@
                     { name: "Riley Olson",
                         ranks: 16,
                         location: "Boise Regional 2016"
+                    },
+                    { name: "Riley Olson",
+                        ranks: 16,
+                        location: "1st Annual atypiCAL Invitational"
+                    },
+                    { name: "Alexandra Jansky",
+                        ranks: 15,
+                        location: "1st Annual atypiCAL Invitational"
+                    },
+                    { name: "Alexandra Jansky",
+                        ranks: 20,
+                        location: "David Frohnmayer Invitational 2016"
+                    },
+                    { name: "Olivia Courogen",
+                        ranks: 17,
+                        location: "David Frohnmayer Invitational 2016"
+                    },
+                    { name: "Riley Olson",
+                        ranks: 19,
+                        location: "David Frohnmayer Invitational 2016"
+                    },
+                    { name: "Aviva Kaye-Diamond",
+                        ranks: 19,
+                        location: "David Frohnmayer Invitational 2016"
+                    },
+                    { name: "Melissa Liu",
+                        ranks: 17,
+                        location: "Seattle Regional 2017"
+                    },
+                    { name: "Riley Olsen",
+                        ranks: 19,
+                        location: "Seattle Regional 2017"
+                    },
+                    { name: "Julia Mueller",
+                        ranks: 19,
+                        location: "Seattle Regional 2017"
                     }
                 ],
                 witness:[
@@ -355,6 +391,26 @@
                      { name: "Andrew Dizon",
                         ranks: 16,
                         location: "Boise Regional 2016"
+                     },
+                     { name: "Caroline Doss",
+                        ranks: 10,
+                        location: "(10/10) Claremont Empire Invitational"
+                     },
+                     { name: "Drew Betts",
+                        ranks: 18,
+                        location: "1st Annual atypiCAL Invitational"
+                     },
+                     { name: "John Dechert Jr. ",
+                        ranks: 17,
+                        location: "1st Annual atypiCAL Invitational"
+                     },
+                     { name: "Theodore Murphy",
+                        ranks: 19,
+                        location: "Beaver Brawl"
+                     },
+                     { name: "Keith Bunting",
+                        ranks: 17,
+                        location: "Seattle Regional 2017"
                      }
                 ],
                 fame:[
