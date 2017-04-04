@@ -2,7 +2,7 @@
 (function () {
     'use strict';
     var mockApp = angular.module('mockApp', ['angular.filter'])
-    
+
     mockApp.controller('MockController', ['$scope', function($scope) {
         $scope.roster = [
             {   first: "Thomas",

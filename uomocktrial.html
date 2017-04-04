@@ -30,6 +30,8 @@
     <script type="text/javascript" src="assets/js/angular.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.8/angular-filter.js"></script>
     <script type="text/javascript" src="assets/js/app.js"></script>
+    <script src='http://www.google.com/recaptcha/api.js'></script>
+    
 </head>
 <!--END HEAD SECTION -->
     
@@ -248,7 +250,6 @@
                     <div class="col-md-12  col-sm-10" >
                         <div class="contact-form">
                             <form id="contact-form" method="POST" action="simple-email-form-v1/form-to-email.php">
-
                             <div class="control-group">
                                 <label>Your Name</label>
                                 <input class="fullname" type="text" name="fullname" />
@@ -272,7 +273,11 @@
                             <div id="errors"></div>
 
                             <div class="control-group no-margin">
-                                <input type="submit" name="submit" value="Submit" id="submit" />
+                            <input type="submit" name="submit" value="Submit" id="submit" />
+                            <h5>If you are a robot, please leave</h5>
+                            <div style="display: inline-block;" class="g-recaptcha" data-sitekey="6LfrdRsUAAAAAAuWIjQkcyl8-F8W2xAbXmIum8Te"></div>
+
+
                             </div>
 
                             </form>
